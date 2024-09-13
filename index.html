@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Your Name">
+    <meta name="description" content="Homepage of Your Name">
+    <title>Your Name's Homepage</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="yourimage.png">
+    <style>
+      body {
+        font-family: 'Lato', sans-serif;
+        padding: 20px;
+        background-color: #f4f4f4;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      header {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #333;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+      .button {
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+    </style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>Your Name</h1>
+    <p>Postdoc | Your Institution</p>
+    <p><strong>Email:</strong> your.email@example.com</p>
+    <p><a href="https://github.com/yourusername" target="_blank">GitHub</a> | <a href="https://scholar.google.com" target="_blank">Google Scholar</a></p>
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <p>
+      Hi, I am a postdoctoral researcher at Your Institution, working on AI for healthcare, vision-language models, and large language models. 
+      I completed my Ph.D. at Your Previous University, where I was supervised by Dr. X.
+    </p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li>Project 1: AI in Healthcare<br>Role: Project Leader<br><a href="https://github.com/yourusername/project1" target="_blank">[Website]</a></li>
+      <li>Project 2: Vision-Language Models<br>Role: Researcher<br><a href="https://github.com/yourusername/project2" target="_blank">[Website]</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Publications</h2>
+    <ul>
+      <li><a href="https://arxiv.org/abs/123456" target="_blank">Your Paper Title 1</a><br>Author List<br>Published at Conference Name 2023</li>
+      <li><a href="https://arxiv.org/abs/654321" target="_blank">Your Paper Title 2</a><br>Author List<br>Published at Journal Name 2024</li>
+    </ul>
+  </section>
+
+  <footer>
+    © 2024 Your Name
+  </footer>
+</div>
+
+<script>
+function toggleSection(name){
+  var x = document.getElementById(name);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+</body>
+</html>
