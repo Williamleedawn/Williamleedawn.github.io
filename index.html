@@ -11,24 +11,62 @@
     <link href="./src/css" rel="stylesheet">
   <link href="./src/bootstrap.min.css" rel="stylesheet" media="screen">
   <link rel="icon" type="image/png" href="https://profiles.stanford.edu/zhihong-chen">
+
   <style>
-  p {
-    font-size: 18px; /* 段落的字体大小 */
-  }
-
-  ul, li {
-    font-size: 18px; /* 列表中的字体大小 */
-  }
-
-  .button {
-    background-color: #e7e7e7; color: black;/* Green */
-    border: none;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
+    body {
+      font-family: 'Lato', sans-serif;
+      font-size: 18px; /* 全局基础字体大小 */
+      line-height: 1.8; /* 全局基础行高 */
+    }
+  
+    p {
+      font-size: 18px; /* 段落的字体大小 */
+      line-height: 1.8; /* 段落的行高 */
+      margin-bottom: 1.5em; /* 段落底部间距 */
+    }
+  
+    ul, li {
+      font-size: 16px; /* 列表中的字体大小 */
+      line-height: 1.6; /* 列表的行高 */
+    }
+  
+    .button {
+      background-color: #e7e7e7; 
+      color: black; /* 按钮文字颜色 */
+      border: none;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      padding: 10px 20px; /* 按钮内边距 */
+      border-radius: 5px; /* 按钮圆角 */
+      transition: background-color 0.3s ease;
+    }
+  
+    .button:hover {
+      background-color: #d5d5d5; /* 悬停时按钮颜色 */
+    }
+  
+    .contact-info {
+      font-size: 20px; /* 联系信息的字体大小 */
+      line-height: 2; /* 联系信息的行高 */
+      font-weight: normal;
+    }
+  
+    /* 其他自定义样式 */
+    h1, h2, h3, h4, h5, h6 {
+      line-height: 1.2;
+      margin-top: 1.2em;
+      margin-bottom: 0.6em;
+    }
+  
+    /* 优化图片响应式 */
+    .img-responsive {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+  
 </head>
 
 
